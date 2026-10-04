@@ -37,9 +37,9 @@ To achieve a flawless extraction count, this project utilizes a modern AI stack:
 
 To prove the ultimate reliability of the system, the pipeline was subjected to a three-stage progressive stress test, starting from the smallest viable slice and scaling up to real-world complexity.
 
-### Phase 1: Pipeline Validation (Ideal Environment)
+### Phase 1: Basic Pipeline Validation (Ideal Environment)
 
-* **What was done:** The extraction function was tested using 25 extremely short, artificially simplified mock announcements (e.g., "【浦发银行配股预案】配股比例0.3，折价率0.55").
+* **What was done:** The extraction function was tested using 25 extremely short, artificially simplified mock announcements (e.g., "【"Shanghai Pudong Development Bank】 Rights Issue Plan" - Rights issue ratio: 0.3, discount rate: 0.5").
 * **Purpose:** To validate the fundamental plumbing of the code.
 * **Result:** **25/25 Correct**. This proves that the API connections, JSON contracts, and scoring scripts function flawlessly when there is no textual noise.
 
